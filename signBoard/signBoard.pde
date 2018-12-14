@@ -5,8 +5,8 @@ String currentFont = "";
 int fontCount = 0;
 
 void setup() {
-  //fullScreen();
-  size(300, 200);
+  fullScreen();
+  //size(300, 200);
   frameRate(5);
   noCursor();
   fontList = PFont.list();
